@@ -1,24 +1,93 @@
-.body {
-  height: 100vw;
-  width: 100vw;
-  padding: 0;
+body, html {
+  height: 100%;
   margin: 0;
-  justify-content: center;
-  align-items: center;
-  display: flex;
 }
 
 .container {
-  display: flex;
+  display: ruby-base-container;
   justify-content: center;
-  flex-direction: row;
-}
-.btn-group-vertical{
-
-  gap: 10px;
-  margin:10px 0;
+  text-align: center;
 }
 
-.hide {
-  display: none;
+#start-btn {
+  background-color: rgb(50, 207, 89);
+  margin-left: 33%;
+  margin-top: 25%;
+  padding: 20px 32px;
+  font-size: 20px;
+  color: black;
+}
+
+#qBox {
+  margin: 20px;
+  font-size: 1.2em;
+}
+
+#clear {
+  background-color: rgb(128, 0, 122);
+  position: relative;
+  padding: 10px;
+  font-size: 20px;
+  color: #2b2e4a;
+  top: 30%;
+  left: 33%;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  margin: 10px;
+}
+
+textarea {
+  width: 90%;
+  margin: 20px;
+}
+
+#submit {
+  background-color: rgb(128, 0, 122);
+  margin-left: 33%;
+  padding: 15px 32px;
+  font-size: 20px;
+  color: white;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 50%;
+  border: 1px solid #f9f7f7;
+}
+
+h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+li {
+  background-color: teal;
+  margin-top: 30px;
+  padding: 5px 15px;
+  width: 80%;
+  font-size: 18px;
+  color: white;
+}
+
+p {
+  padding-top: 30px;
+  text-align: center;
+}
+
+span {
+  font-weight: bolder;
+  color: #2b2e4a;
+}
+
+#newDiv {
+  padding-top: 50px;
+  border-top: 1px solid lightcyan;
+  font-weight: bold;
 }
